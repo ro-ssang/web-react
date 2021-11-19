@@ -8,7 +8,7 @@ function Header() {
         <Link to="/portfolio">Portfolio</Link>
       </div>
       <div className="header__logo">
-        <Link to="/">webstroyboy</Link>
+        <Link to="/">Ross's React</Link>
       </div>
       <nav className="header__menu">
         <ul>

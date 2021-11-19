@@ -4,7 +4,7 @@ import YoutubeItem from '../info/YoutubeItem';
 function YoutubeList(props) {
   return (
     <>
-      {props.vidoes.map((video) => (
+      {props.videos.map((video) => (
         <YoutubeItem key={video.id.videoId} video={video} />
       ))}
     </>
